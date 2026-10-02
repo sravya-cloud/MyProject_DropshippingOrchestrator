@@ -1,31 +1,93 @@
-# Lab 1 – Requirements Engineering & UML Use-Case Modelling
+# MyProject – Dropshipping Inventory & Order Orchestrator
 
-**Name:** Mutnuri Nagavalli Sri Sravya  
-**SRN:** PES1UG24CS284
+## 1. Project Overview
 
-## Problem Statement #38
-**Dropshipping Inventory & Order Orchestrator**
+This repository contains the individual Software Engineering project
+assignments and artefacts for the **Dropshipping Inventory & Order
+Orchestrator**.
 
-## Actors
-- E-Commerce Platform
-- Supplier Partner
+### Problem Statement
+
+**Problem Statement #38 – Retail, E-Commerce & Finance**
+
+The Dropshipping Inventory & Order Orchestrator is an automated
+e-commerce backend that:
+
+- Receives and processes storefront order webhooks
+- Verifies supplier inventory availability in real time
+- Handles multi-vendor orders
+- Splits orders based on suppliers
+- Dispatches supplier purchase orders
+- Tracks shipment information
+- Updates order and fulfillment status
+
+### Target Stakeholders / Actors
+
 - E-Store Owner
+- Supplier Partner
+- E-Commerce Platform
 
-## Primary Use Cases
-- Receive & Process Order
-- Verify Supplier Inventory
-- Split Multi-Vendor Order
-- Dispatch Supplier Purchase Order
-- Update Order Status
-- Track Shipment
-- View Order & Fulfillment Status
+---
 
-## UML Relationships
-- `Receive & Process Order` «include» `Verify Supplier Inventory`
-- `Receive & Process Order` «include» `Dispatch Supplier Purchase Order`
-- `Split Multi-Vendor Order` «extend» `Receive & Process Order`
+# 2. Objectives
 
-## Submission Files
-- `RequirementsTable.pdf`
-- `Use_Case_Flow.pdf`
-- `PES10UG24CS304_SE_Lab01.drawio.pdf` — add your exported Draw.io PDF here
+The main objectives of the project are:
+
+1. Automate the processing of incoming e-commerce orders.
+2. Verify supplier inventory before placing supplier orders.
+3. Handle orders containing products from multiple suppliers.
+4. Automatically dispatch supplier purchase orders.
+5. Track shipment and fulfillment status.
+6. Provide a structured and maintainable software architecture.
+7. Apply Software Engineering practices including:
+   - Requirements Engineering
+   - UML Modelling
+   - Architectural Modelling
+   - Software Requirements Specification
+   - Work Breakdown
+   - Software Testing
+   - GitHub-based project management
+
+---
+
+# 3. Repository Structure
+
+The repository is organized according to the individual project
+submission requirements.
+
+```text
+MyProject_DropshippingOrchestrator/
+│
+├── README.md
+│
+├── 1-RE/
+│   ├── README.md
+│   ├── Functional_Requirements.pdf
+│   ├── Non_Functional_Requirements.pdf
+│   └── RTM_Table.pdf
+│
+├── 2-Architectural-Diagram/
+│   ├── README.md
+│   ├── Dropshipping_Component_Diagram.pdf
+│   ├── Dropshipping_Lab3_Component_Diagram_Clean.drawio
+│   └── Dropshipping_Lab3_Architecture_Justification.pdf
+│
+├── 3-Project-Creational-Screenshots/
+│   ├── README.md
+│   ├── GitHub/
+│   └── Jira/
+│
+├── 4-SRS-and-Work-Breakdown/
+│   ├── README.md
+│   ├── SRS.pdf
+│   └── Work_Breakdown.pdf
+│
+├── 5-GitHub-Copilot/
+│   ├── README.md
+│   ├── Copilot_Screenshots/
+│   └── Repository_Link.txt
+│
+└── 6-Software-Testing-Tools/
+    ├── README.md
+    ├── Testing_Screenshots/
+    └── Fixed_Project_Link.txt
